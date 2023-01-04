@@ -1,0 +1,30 @@
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.exe
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.deps.json
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.runtimeconfig.json
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.dll
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.pdb
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.AssemblyInfo.cs
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.dll
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\refint\LAB_1_powtorkaObiektowosci.dll
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.pdb
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.genruntimeconfig.cache
+C:\Users\User\Desktop\visual zadanka\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\ref\LAB_1_powtorkaObiektowosci.dll
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.csproj.AssemblyReference.cache
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.AssemblyInfoInputs.cache
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.AssemblyInfo.cs
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.csproj.CoreCompileInputs.cache
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.dll
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\refint\LAB_1_powtorkaObiektowosci.dll
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.pdb
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.exe
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.deps.json
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.runtimeconfig.json
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.dll
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\bin\Debug\net6.0\LAB_1_powtorkaObiektowosci.pdb
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\LAB_1_powtorkaObiektowosci.genruntimeconfig.cache
+C:\Users\Wiktor\Desktop\C#_Studia\PAW\LAB_1_powtorkaObiektowosci\LAB_1_powtorkaObiektowosci\obj\Debug\net6.0\ref\LAB_1_powtorkaObiektowosci.dll
