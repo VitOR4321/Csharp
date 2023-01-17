@@ -1,0 +1,46 @@
+﻿@model Project.Models.AddContactViewModel
+@{
+}
+<h1>Add Contact</h1>
+<form method="post" action="Add" class="mt-5">
+  <div class="form-group m-3">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" asp-for="firstName" required>
+  </div>
+  <div class="form-group m-3">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" asp-for="lastName" required>
+  </div>
+  <div class="form-group m-3">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" asp-for="email" required>
+  </div>
+  <div class="form-group m-3">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" asp-for="password" required>
+  </div>
+  <div class="form-group m-3">
+    <label for="category">Category</label>
+    <!-- <input type="text" class="form-control" asp-for="category" required> -->
+    <select class="form-control" asp-for="category" required>
+        <option>służbowy</option>
+        <option>prywatny</option>
+        <option>inne</option>
+    </select>
+
+
+  </div>
+  <div class="form-group m-3">
+    <label for="subcategory">Subcategory</label>
+    <input type="text" class="form-control" asp-for="subcategory">
+  </div>
+  <div class="form-group m-3">
+    <label for="phone">Phone</label>
+    <input type="number" class="form-control" asp-for="phone" required>
+  </div>
+  <div class="form-group m-3">
+    <label for="birthdate">Birthdate</label>
+    <input type="date" class="form-control" asp-for="birthdate" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
