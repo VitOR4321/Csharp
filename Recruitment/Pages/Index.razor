@@ -1,0 +1,68 @@
+﻿@page "/"
+@using ContactsListApp.Models;
+@using DisplayApp.Services;
+@inject IContactService conService;
+
+<PageTitle>Index</PageTitle>
+
+<NavLink class="nav-link" href="AddContact">
+    <span class="btn btn-primary" href="/AddContact" role="button">Add Contact</span>
+</NavLink>
+
+<h1>Contact List</h1>
+
+<table class="table table-striped table-bordered bg-light">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Details</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var (index, prod) in contactsList.Select((prod, i) => (i + 1, prod)))
+        {
+            <tr>
+                <td>@index</td>
+                <td>@prod.firstName</td>
+                <td>@prod.lastName</td>
+                <td>@prod.email</td>
+                <td>@prod.phone</td>
+                <td>
+                    <a class="nav-link" href="GetContact/@prod.id">
+                        <span class="btn btn-primary" role="button">Details</span>
+                    </a>
+                </td>
+                <td>
+                    <a class="nav-link" href="EditContact/@prod.id">
+                        <span class="btn btn-primary" role="button">Edit</span>
+                    </a>
+                </td>
+                <td>
+                    <a class="nav-link" href="DeleteContact/@prod.id">
+                        <span class="btn btn-danger" role="button">Delete</span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    private List<Contact> contactsList = new List<Contact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetContact();
+    }
+
+    private async Task GetContact()
+    {
+        contactsList = await conService.GetContacts();
+    }
+}

@@ -1,0 +1,96 @@
+﻿@page "/AddContact"
+@using ContactsListApp.Models;
+@using DisplayApp.Services;
+@inject IContactService conService;
+
+<h3>AddContact</h3>
+<EditForm Model="@con" OnSubmit="@Add">
+   <div class="form-group">
+    <label for="firstName">First Name</label>
+    <InputText id="firstName" @bind-Value="@con.firstName" />
+   </div>
+   <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <InputText id="lastName" @bind-Value="@con.lastName" />
+   </div>
+   <div class="form-group">
+    <label for="email">Email</label>
+    <InputText id="email" @bind-Value="@con.email" />
+   </div>
+   <div class="form-group">
+    <label for="password">Password</label>
+    <InputText id="password" @bind-Value="@con.password" />
+   </div>
+   <div class="form-group">
+    <label for="category">Category</label>
+    <InputText id="category" @bind-Value="@con.category" />
+   </div>
+   <div class="form-group">
+    <label for="subcategory">subcategory</label>
+    <InputText id="subcategory" @bind-Value="@con.subcategory" />
+   </div>
+   <div class="form-group">
+    <label for="phone">Phone</label>
+    <InputNumber id="phone" @bind-Value="@con.phone" />
+   </div>
+   <div class="form-group">
+    <label for="birthdate">Birthdate</label>
+    <InputNumber id="birthdate" @bind-Value="@con.birthdate" />
+   </div>
+    <button type="submit">Submit</button>
+</EditForm>
+
+
+<!--
+<form method="post" action="AddContact" class="mt-5">
+
+  <div class="form-group">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" id="firstName" placeholder="Enter first name" asp-for="firstName">
+  </div>
+   <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" id="lastName" placeholder="Enter last name" asp-for="lastName">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" asp-for="email">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password" asp-for="password">
+  </div>
+  <div class="form-group">
+    <label for="category">Category</label>
+    <select class="form-control" id="category" asp-for="category">
+      <option>służbowy</option>
+      <option>prywatny</option>
+      <option>inny</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="subcategory">Subcategory</label>
+    <input type="text" class="form-control" id="subcategory" placeholder="subcategory" asp-for="subcategory">
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone</label>
+    <input type="text" class="form-control" id="phone" placeholder="0" asp-for="phone">
+  </div>
+  <div class="form-group">
+    <label for="birthdate">Birthdate</label>
+    <input type="text" class="form-control" id="birthdate" asp-for="birthdate">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+-->
+
+@code {
+
+    private AddContactRequest con = new AddContactRequest();
+
+
+    private async Task Add()
+    {
+        con = await conService.AddContact();
+    }
+}
